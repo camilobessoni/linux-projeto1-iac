@@ -1,0 +1,27 @@
+DIRETÓRIOS
+
+/publico
+/adm
+/ven
+/sec
+
+GRUPOS
+
+GRP_ADM		GRP_VEN		GRP_SEC
+
+USUÁRIOS
+
+carlos		debora		josefina
+maria		sebastiana	amanda
+joao		roberto		rogerio
+
+
+DEFINIÇÕES
+
+* excluir diretórios, arquivos, grupos e usuários criados anteriormente
+* todo provisionamento deve ser feito em um arquivo do tipo Bash Script
+* o dono de todos os diretórios criados será o usuário root
+* todos os usuários terão permissão total dentro do diretório /publico
+* os usuários de cada grupo terão permissão total dentro de seu respectivo diretório
+* os usuários não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos a que eles não pertencem
+* subir arquivo de script criado para a sua conta no GitHub
